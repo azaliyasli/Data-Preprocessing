@@ -8,7 +8,7 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 
-df = pd.read_csv("C:\\Users\\slkn5\\Desktop\\ML\\Resources\\Datasets\\Data1.csv")
+df = pd.read_csv("preprocessingPipline/Data.csv")
 X = df.iloc[:, :-1].values  #All rows and all columns except last column
 y = df.iloc[:, -1].values  #All rows and just last column
 
